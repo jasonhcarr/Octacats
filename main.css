@@ -1,6 +1,7 @@
 ul{
   list-style: none;
 }
+
 ul.octodex{
   overflow: hidden;
 }
@@ -21,8 +22,9 @@ li.octocat{
 }
 
 h3::before {
-  content: "#"
+  content: "#";
 }
+
 img {
   max-width: 100%;
   max-height: 100%;
@@ -42,13 +44,12 @@ ul.authors {
   overflow: hidden;
   float: right;
   padding: 5px;
-
 }
 
 ul.authors li {
   float: left;
-  max-width: 30px;
-  max-height: 30px;
+  max-width: 25px;
+  max-height: 25px;
 }
 
 footer {
@@ -62,6 +63,14 @@ cite {
   float: right;
   margin-top: 10px;
   font-style: normal;
+  color: black;
+  font-size: 13;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 div.triangle-down {
@@ -71,5 +80,5 @@ div.triangle-down {
   border-width: 8px 10px 0 10px;
   border-color: lightgray transparent transparent transparent;
   position: absolute;
-  right: 10px;
+  right: 7px;
 }
