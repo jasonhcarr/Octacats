@@ -48,8 +48,8 @@ ul.authors {
 
 ul.authors li {
   float: left;
-  max-width: 25px;
-  max-height: 25px;
+  max-width: 28px;
+  max-height: 28px;
 }
 
 footer {
@@ -64,7 +64,7 @@ cite {
   margin-top: 10px;
   font-style: normal;
   color: black;
-  font-size: 13;
+  font-size: 14;
 }
 
 a {
